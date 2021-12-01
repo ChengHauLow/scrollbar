@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+html{
+    overflow-y: overlay;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    &::-webkit-scrollbar { /* WebKit */
+        width: 10px;
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #FF0000;
+        border-radius: 50px;
+    }
+}
+
+.superHeight{
+    min-height: 1500px;
+    width: 100%;
+    background: cornflowerblue;
+}
+.superHeight2{
+    min-height: 1500px;
+    width: 100%;
+    background: cornsilk;
+}
+.superHeight3{
+    min-height: 1500px;
+    width: 100%;
+    background: crimson;
+}
